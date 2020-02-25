@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+
+
+
+    >
+
+    <TextView
+        android:id="@+id/t1_temp"
+        android:layout_width="103dp"
+        android:layout_height="57dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="275dp"
+        android:layout_marginEnd="33dp"
+        android:layout_marginBottom="74dp"
+        android:text="temparature"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/t2_city"
+        android:layout_width="156dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="59dp"
+        android:layout_marginEnd="196dp"
+        android:layout_marginBottom="248dp"
+        android:text="city"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/t3_description"
+        android:layout_width="188dp"
+        android:layout_height="56dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="59dp"
+        android:layout_marginEnd="164dp"
+        android:layout_marginBottom="177dp"
+        android:text="description"
+        android:textSize="20sp" />
+
+    <com.google.android.gms.maps.MapView
+        android:id="@+id/mapView"
+        android:layout_width="match_parent"
+        android:layout_height="339dp" />
+
+    <TextView
+        android:id="@+id/t4_humidity"
+        android:layout_width="127dp"
+        android:layout_height="33dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="59dp"
+        android:layout_marginEnd="226dp"
+        android:layout_marginBottom="134dp"
+        android:text="humidity"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/t5_mintemp"
+        android:layout_width="160dp"
+        android:layout_height="36dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="60dp"
+        android:layout_marginEnd="191dp"
+        android:layout_marginBottom="85dp"
+        android:text="minTemp"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/t6_maxtemp"
+        android:layout_width="155dp"
+        android:layout_height="34dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="61dp"
+        android:layout_marginEnd="195dp"
+        android:layout_marginBottom="37dp"
+        android:text="maxTemp"
+        android:textSize="20sp"/>
+
+</RelativeLayout>
